@@ -1,3 +1,4 @@
 # vlado.dev - about me site
 
-To-be added
+Features:
+- working blog
