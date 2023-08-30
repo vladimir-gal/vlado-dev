@@ -41,6 +41,10 @@
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.33.1",
+    "dayjs": "^1.11.9",
+    "marked": "^7.0.5",
+    "supabase-auth-helpers-qwik": "^0.0.3",
     "tailwind-variants": "^0.1.13"
   }
 }

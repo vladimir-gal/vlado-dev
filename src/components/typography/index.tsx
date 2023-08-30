@@ -10,10 +10,6 @@ const typography = tv({
       h2: "text-xl font-bold",
       p: "text-justify",
     },
-    margin: {
-      mt: "mt-4",
-      mb: "mb-4",
-    },
   },
   defaultVariants: {
     variant: "p",

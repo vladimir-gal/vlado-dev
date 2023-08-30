@@ -2,9 +2,13 @@ import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import { LucideArrowLeft } from "../icons/arrow-left";
 
-const BackButton = component$(() => {
+type Props = {
+  href?: string;
+};
+
+const BackButton = component$<Props>(({ href = "/" }) => {
   return (
-    <Link href="/">
+    <Link href={href}>
       <LucideArrowLeft class="text-xl" />
     </Link>
   );
